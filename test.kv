@@ -1,0 +1,23 @@
+#:kivy 1.9.1
+
+
+<BGScreen>:
+    id: "background"
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'road1.png'
+
+<StartScreen>
+    id: "start"
+    BGScreen:
+        id: "background"
+#   FloatLayout:
+#       Image:
+#           pos_hint: {'center_x':0.5,'y':0.5}
+#           size_hint: 0.5,0.5
+#           size: self.size
+#source: 'logo.png'
+
+
