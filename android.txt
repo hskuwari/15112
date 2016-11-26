@@ -1,0 +1,3 @@
+title=Coin Collector
+author=haya
+orientation=portrait
